@@ -1,0 +1,6 @@
+2025-03-25 10:05:00 | INFO     | bot.cli | CLI place: symbol=BTCUSDT side=SELL type=LIMIT qty=0.001 price=120000.0
+2025-03-25 10:05:00 | INFO     | bot.orders | Placing LIMIT SELL BTCUSDT qty=0.001 price=120000
+2025-03-25 10:05:00 | INFO     | bot.client | POST /fapi/v1/order (signed)
+2025-03-25 10:05:01 | DEBUG    | bot.client | HTTP 200 body (truncated): {"orderId":987654321,"symbol":"BTCUSDT","status":"NEW",...}
+2025-03-25 10:05:01 | INFO     | bot.orders | Order accepted: orderId=987654321 status=NEW executedQty=0.000 avgPrice=0.00
+2025-03-25 10:05:01 | INFO     | bot.cli | Order response JSON: {"orderId": 987654321, "symbol": "BTCUSDT", "status": "NEW", "executedQty": "0.000", "avgPrice": "0.00"}

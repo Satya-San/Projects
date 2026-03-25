@@ -1,0 +1,6 @@
+2025-03-25 10:00:01 | INFO     | bot.cli | CLI place: symbol=BTCUSDT side=BUY type=MARKET qty=0.001 price=None
+2025-03-25 10:00:01 | INFO     | bot.orders | Placing MARKET BUY BTCUSDT qty=0.001 price=None
+2025-03-25 10:00:01 | INFO     | bot.client | POST /fapi/v1/order (signed)
+2025-03-25 10:00:02 | DEBUG    | bot.client | HTTP 200 body (truncated): {"orderId":123456789,"symbol":"BTCUSDT","status":"FILLED",...}
+2025-03-25 10:00:02 | INFO     | bot.orders | Order accepted: orderId=123456789 status=FILLED executedQty=0.001 avgPrice=67234.50
+2025-03-25 10:00:02 | INFO     | bot.cli | Order response JSON: {"orderId": 123456789, "symbol": "BTCUSDT", "status": "FILLED", "executedQty": "0.001", "avgPrice": "67234.50"}

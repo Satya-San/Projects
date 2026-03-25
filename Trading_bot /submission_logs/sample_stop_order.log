@@ -1,0 +1,6 @@
+2025-03-25 11:00:00 | INFO     | bot.cli | CLI place: symbol=BTCUSDT side=BUY type=STOP qty=0.001 price=50000.0 stop_price=51000.0
+2025-03-25 11:00:00 | INFO     | bot.orders | Placing STOP BUY BTCUSDT qty=0.001 price=50000 stop_price=51000
+2025-03-25 11:00:00 | INFO     | bot.client | POST /fapi/v1/order (signed)
+2025-03-25 11:00:01 | DEBUG    | bot.client | HTTP 200 body (truncated): {"orderId":555444333,"symbol":"BTCUSDT","type":"STOP",...}
+2025-03-25 11:00:01 | INFO     | bot.orders | Order accepted: orderId=555444333 status=NEW executedQty=0.000 avgPrice=0.00
+2025-03-25 11:00:01 | INFO     | bot.cli | Order response JSON: {"orderId": 555444333, "symbol": "BTCUSDT", "status": "NEW", "stopPrice": "51000", "price": "50000"}
